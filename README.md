@@ -12,7 +12,7 @@
 **Problem Statement #30:** *Airport Lost Luggage Claim & Tracking Portal*
 
 * **[`lab-1/requirements_table.pdf`](./lab-1/requirements_table.pdf)** 
-* **[`lab-1/use_case_diagram.pdf`](./lab-1/use_case_diagram.pdf)** —
+* **[`lab-1/use_case_diagram.pdf`](./lab-1/use_case_diagram.pdf)** 
 * **[`lab-1/use_case_flow.pdf`](./lab-1/use_case_flow.pdf)** 
 
 ---
