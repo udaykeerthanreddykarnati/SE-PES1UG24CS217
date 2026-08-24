@@ -6,7 +6,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ### Lab 1: Requirements Engineering & Use Case Modeling
 **Problem Statement #30:** *Airport Lost Luggage Claim & Tracking Portal*
