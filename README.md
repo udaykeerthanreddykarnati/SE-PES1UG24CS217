@@ -16,3 +16,10 @@
 * **[`lab-1/use_case_flow.pdf`](./lab-1/use_case_flow.pdf)** 
 
 ---
+
+### Lab 2: Agile Backlog Creation & Sprint Simulation in Jira
+**Project:** *Airport Lost Luggage Claim & Tracking Portal* (`SE_LAB_2`)
+
+* **[`lab-2/agile-jira-lab2.pdf`](./lab-2/agile-jira-lab2.pdf)**
+
+---
