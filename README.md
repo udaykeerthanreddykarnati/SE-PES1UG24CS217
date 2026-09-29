@@ -23,3 +23,12 @@
 * **[`lab-2/agile-jira-lab2.pdf`](./lab-2/agile-jira-lab2.pdf)**
 
 ---
+
+### Lab 3: Component Modelling & Architectural Pattern Selection
+**Project:** *Airport Lost Luggage Claim & Tracking Portal*
+
+* **[`lab-3/se_component_diagram.png`](./lab-3/se_component_diagram.png)**
+* **[`lab-3/se_lab3_justification.pdf`](./lab-3/se_lab3_justification.pdf)**
+
+---
+
