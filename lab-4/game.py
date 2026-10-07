@@ -28,7 +28,17 @@ def platform_y(platform, x):
 
 def theme_color(score):
     """Return an (r, g, b) background colour for the current score, or None for the default."""
-    pass
+    if score < 100:
+        return None
+
+    # Gradually transition from navy to dark orange/red between 100 and 800.
+    progress = min((score - 100) / 700, 1.0)
+
+    r = int(15 + 100 * progress)
+    g = int(15 + 25 * progress)
+    b = int(25 - 20 * progress)
+
+    return (r, g, b)
 
 
 def on_barrel_jumped(player, barrel):
