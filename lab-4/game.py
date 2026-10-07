@@ -43,7 +43,26 @@ def theme_color(score):
 
 def on_barrel_jumped(player, barrel):
     """Called when the player clears a barrel; add a bonus effect here."""
-    pass
+    import math
+    from array import array
+
+    mixer_info = pygame.mixer.get_init()
+    if mixer_info is None:
+        return
+
+    frequency, _, channels = mixer_info
+    duration = 0.08
+    tone = array("h")
+
+    for i in range(int(frequency * duration)):
+        sample = int(5000 * math.sin(2 * math.pi * 880 * i / frequency))
+
+        if channels == 1:
+            tone.append(sample)
+        else:
+            tone.extend([sample, sample])
+
+    pygame.mixer.Sound(buffer=tone).play()
 
 
 def score_multiplier(score):
