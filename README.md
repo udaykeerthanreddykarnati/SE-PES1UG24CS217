@@ -32,3 +32,13 @@
 
 ---
 
+### Lab 4: Vibe Coding
+
+* **Project:** Donkey Kong Game
+* **Updated Code:** [`lab-4/game.py`](./lab-4/game.py)
+* **Before Video:** [`lab-4/before.mp4`](./lab-4/before.mp4)
+* **After Video:** [`lab-4/after.mp4`](./lab-4/after.mp4)
+* **Chat History:** [`lab-4/Lab4_Chat_History.pdf`](./lab-4/Lab4_Chat_History.pdf)
+
+---
+
