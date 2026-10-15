@@ -20,6 +20,7 @@ def readMeters(xmlText):
     return [(m.get("id"), int(m.get("prev")), int(m.get("curr")))
             for m in root.findall("meter")]
 
+
 def calculateUnits(previous, current):
     if current < previous:
         print("Warning: meter reading went backwards")
@@ -42,7 +43,7 @@ def energyCharge(units):
 
 def generateBill(meterId, units, taxRate=0.05, extras={}):
     amount = energyCharge(units) + FIXED_CHARGE + sum(extras.values())
-    bill = {"meter" : meterId, "units": units,
+    bill = {"meter": meterId, "units": units,
             "amount": round(amount * (1 + taxRate), 2)}
     bills.append(bill)
     return bill
@@ -61,7 +62,8 @@ def saveBills(fileName="bills.json"):
 
 def syncMeter(meterIp):
     # Helper kept for the lab: not called by the demo
-    address = ipaddress.ip_address(meterIp)  # raises ValueError if not a real IP
+    # raises ValueError if meterIp is not a valid IP address
+    address = ipaddress.ip_address(meterIp)
     response = requests.get(f"http://{address}/reading", timeout=5)
     response.raise_for_status()
     return response.text
@@ -73,11 +75,12 @@ def main():
         generateBill(meterId, units)
     generateBill("M4", 50, extras={"late_fee": 25})
     for bill in bills:
-        print(bill["meter"], "used", bill["units"], "units, bill Rs.", bill["amount"])
+        print(bill["meter"], "used", bill["units"],
+              "units, bill Rs.", bill["amount"])
     highest = max(bills, key=lambda bill: bill["amount"])
     print("Highest bill:", highest["meter"])
     print("Average bill:", averageBill("INR"))
-    total=sum(bill["amount"] for bill in bills)
+    total = sum(bill["amount"] for bill in bills)
     print("Total billed:", round(total, 2))
     saveBills()
     print("Saved", len(bills), "bills to bills.json")
