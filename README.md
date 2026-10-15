@@ -42,3 +42,14 @@
 
 ---
 
+
+---
+
+### Lab 5: Static Code Analysis
+
+**Program:** *Electricity Bill Calculator* (`L5_30_electricity_bill`)
+
+- **[`lab-5/electricity_bill.py`](lab-5/electricity_bill.py)**
+- **[`lab-5/issues.md`](lab-5/issues.md)**
+- **[`lab-5/reflection.md`](lab-5/reflection.md)**
+- **[`lab-5/reports/`](lab-5/reports)** (Pylint, Bandit, Flake8, before and after)
