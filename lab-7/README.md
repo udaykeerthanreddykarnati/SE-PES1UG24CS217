@@ -119,7 +119,7 @@ In [`vending_machine.py`](./vending_machine.py), all three functions were harden
 
 ## Screenshots
 
-Full-screen Kitty screenshots saved under [`screenshots/`](./screenshots/):
+Full-screen terminal screenshots saved under [`screenshots/`](./screenshots/):
 
 | File | Description |
 |---|---|

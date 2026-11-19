@@ -65,3 +65,15 @@
 - **[`lab-6/code_coverage.png`](lab-6/code_coverage.png)**
 - **[`lab-6/BranchCoverageTest_30_vending_machine.py`](lab-6/BranchCoverageTest_30_vending_machine.py)** (100% branch coverage)
 - **[`lab-6/branch_coverage.png`](lab-6/branch_coverage.png)**
+
+---
+
+### Lab 7: Fuzz Testing
+
+**Program:** *Vending Machine* (`L6_L7_30_vending_machine`)
+
+- **[`lab-7/vending_machine.py`](lab-7/vending_machine.py)** (hardened module under test)
+- **[`lab-7/test_vending_machine.py`](lab-7/test_vending_machine.py)** (Hypothesis fuzz tests)
+- **[`lab-7/README.md`](lab-7/README.md)** (fuzz testing report)
+- **[`lab-7/Lab7_FuzzTesting_PES1UG24CS217.pdf`](lab-7/Lab7_FuzzTesting_PES1UG24CS217.pdf)** (submission PDF)
+- **[`lab-7/screenshots/`](lab-7/screenshots)** (before and after terminal screenshots)
