@@ -27,7 +27,7 @@
 ### Lab 3: Component Modelling & Architectural Pattern Selection
 **Project:** *Airport Lost Luggage Claim & Tracking Portal*
 
-* **[`lab-3/se_component_diagram.png`](./lab-3/se_component_diagram.png)**
+* **[`lab-3/se_component_diagram.pdf`](./lab-3/se_component_diagram.pdf)**
 * **[`lab-3/se_lab3_justification.pdf`](./lab-3/se_lab3_justification.pdf)**
 
 ---
@@ -39,9 +39,6 @@
 * **Before Video:** [`lab-4/before.mp4`](./lab-4/before.mp4)
 * **After Video:** [`lab-4/after.mp4`](./lab-4/after.mp4)
 * **Chat History:** [`lab-4/Lab4_Chat_History.pdf`](./lab-4/Lab4_Chat_History.pdf)
-
----
-
 
 ---
 
